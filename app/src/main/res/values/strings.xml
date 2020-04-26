@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">KebudayaanIndonesia</string>
+    <string name="kebudayaan">Judul</string>
+    <string name="wisata">Wisata Jogja</string>
+    <string name="makanan">Makanan Jogja</string>
+    <string name="about">About</string>
+    <string name="name">Naura Retyani</string>
+    <string name="email">naura.retyani@gmail.com</string>
+    <string name="numb">+62 822 1114 5677</string>
+    <string name="adress">Jl.Cirendeu Indah II, Perumahan Griya Praweda, no.22</string>
+    <string name="title">Title</string>
+    <string name="ket">Keterangan</string>
+    <string name="info">Info</string>
+</resources>

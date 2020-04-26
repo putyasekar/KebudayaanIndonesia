@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/padding_30"
+        android:src="@drawable/photo1" />
+
+    <TextView
+        style="@style/TextContent.Black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/padding_16"
+        android:text="@string/name"
+        android:textSize="@dimen/padding_text_32" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/padding_8"
+        android:text="@string/email"
+        android:textSize="@dimen/padding_text_16" />
+
+
+    <TableRow
+        style="@style/TextSpec.Row"
+        android:layout_marginTop="@dimen/padding_16">
+
+        <TextView
+            style="@style/TextSpec.Field"
+            android:text="Mobile" />
+
+        <TextView
+            style="@style/TextSpec.Value"
+            android:text="@string/numb" />
+    </TableRow>
+
+    <TableRow
+        style="@style/TextSpec.Row"
+        android:layout_marginTop="@dimen/padding_8">
+
+        <TextView
+            style="@style/TextSpec.Field"
+            android:text="Adress" />
+
+        <TextView
+            style="@style/TextSpec.Value"
+            android:text="@string/adress" />
+    </TableRow>
+    <TableRow
+        style="@style/TextSpec.Row"
+        android:layout_marginTop="@dimen/padding_8">
+
+        <TextView
+            style="@style/TextSpec.Field"
+            android:text="School" />
+
+        <TextView
+            style="@style/TextSpec.Value"
+            android:text="SMK RPL IDN" />
+    </TableRow>
+    <TableRow
+        style="@style/TextSpec.Row"
+        android:layout_marginTop="@dimen/padding_8">
+
+        <TextView
+            style="@style/TextSpec.Field"
+            android:text="Birth   " />
+
+        <TextView
+            style="@style/TextSpec.Value"
+            android:text="Jakarta, 10 May 2004" />
+    </TableRow>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/img_item_photo"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" 
+        android:layout_margin="2dp"
+        android:scaleType="centerCrop"
+        android:src="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/tv_item_budaya"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" 
+        android:text="@string/kebudayaan"
+        android:textSize="25sp"
+        android:layout_margin="2dp" 
+        android:gravity="center"/>
+
+</LinearLayout>
